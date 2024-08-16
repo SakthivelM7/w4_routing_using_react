@@ -4,9 +4,9 @@ import React from 'react'
 const AboutPage = () => {
   return (
     <div>
-        <marquee><h1 className="text-center text-3xl font-bold mt-5 text-orange-600">
+        <h1 className="text-center text-3xl font-bold mt-5 text-orange-600">
         React Router week four Assignment
-        </h1></marquee>
+        </h1>
         <div className='text-2xl mt-28 text-start text-yellow-400 ml-20 mr-20 leading-loose'>
         <p>GWC Data.AI, which was established in 2020, boasts of over 120 certified professionals who offer cutting-edge data analytics solutions and cloud computing services to a variety of industries, including Healthcare, Manufacturing, Retail, Banking & Finance, Telecommunications & Technology, Media & Publishing, Public Sector, Government, and Consumer Services.
 
@@ -17,4 +17,4 @@ Headquartered in Delaware, USA, GWC operates in seven other locations. The compa
   )
 }
 
-export default AboutPage
+export default AboutPage;

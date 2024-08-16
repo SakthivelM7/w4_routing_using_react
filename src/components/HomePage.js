@@ -1,14 +1,14 @@
 import React from 'react'
-import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 const HomePage = () => {
     const navigate = useNavigate();
   return (
     <div>
-     <marquee><h1 className="text-center text-3xl font-bold mt-5 text-orange-600">
+     <h1 className="text-center text-3xl font-bold mt-5 text-orange-600">
         React Router week four Assignment
-        </h1></marquee>
+        </h1>
 
  <div className="mt-40">
         <h3 className="text-2xl text-center mt-10 font-serif text-white">
